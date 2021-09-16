@@ -17,6 +17,25 @@
 		731FE36A26EE8125000CA5B5 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FE36926EE8125000CA5B5 /* VC2.swift */; };
 		731FE36C26EE813C000CA5B5 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FE36B26EE813C000CA5B5 /* VC4.swift */; };
 		731FE36E26EE86E4000CA5B5 /* solcelle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 731FE36D26EE86E4000CA5B5 /* solcelle.jpg */; };
+		731FE37026EF4664000CA5B5 /* Introfilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FE36F26EF4664000CA5B5 /* Introfilm.swift */; };
+		734F171626EF6DD100A5BDA4 /* VC22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F171526EF6DD100A5BDA4 /* VC22.swift */; };
+		734F171826EF6DDD00A5BDA4 /* VC23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F171726EF6DDD00A5BDA4 /* VC23.swift */; };
+		734F171C26F26EC500A5BDA4 /* Aktivitet1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F171B26F26EC500A5BDA4 /* Aktivitet1.swift */; };
+		734F171E26F26ED600A5BDA4 /* Aktivitet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F171D26F26ED600A5BDA4 /* Aktivitet2.swift */; };
+		734F172026F26EEB00A5BDA4 /* Aktivitet3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F171F26F26EEB00A5BDA4 /* Aktivitet3.swift */; };
+		734F172226F26EF800A5BDA4 /* Aktivitet4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F172126F26EF800A5BDA4 /* Aktivitet4.swift */; };
+		734F172426F26F0400A5BDA4 /* Aktivitet5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F172326F26F0400A5BDA4 /* Aktivitet5.swift */; };
+		734F174726F365B400A5BDA4 /* sol1.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F174026F365B200A5BDA4 /* sol1.png */; };
+		734F174826F365B400A5BDA4 /* sol2.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F174126F365B300A5BDA4 /* sol2.png */; };
+		734F174926F365B400A5BDA4 /* sol3.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F174226F365B300A5BDA4 /* sol3.png */; };
+		734F174A26F365B400A5BDA4 /* sol5.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F174326F365B300A5BDA4 /* sol5.png */; };
+		734F174B26F365B400A5BDA4 /* sol7.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F174426F365B400A5BDA4 /* sol7.png */; };
+		734F174C26F365B400A5BDA4 /* sol6.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F174526F365B400A5BDA4 /* sol6.png */; };
+		734F174D26F365B400A5BDA4 /* sol4.png in Resources */ = {isa = PBXBuildFile; fileRef = 734F174626F365B400A5BDA4 /* sol4.png */; };
+		734F174F26F369CB00A5BDA4 /* Aktivitet6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F174E26F369CB00A5BDA4 /* Aktivitet6.swift */; };
+		734F175126F369D800A5BDA4 /* Aktivitet7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F175026F369D800A5BDA4 /* Aktivitet7.swift */; };
+		734F175326F369E300A5BDA4 /* Aktivitet8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F175226F369E300A5BDA4 /* Aktivitet8.swift */; };
+		734F175526F369EE00A5BDA4 /* Aktivitet9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F175426F369EE00A5BDA4 /* Aktivitet9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +51,25 @@
 		731FE36926EE8125000CA5B5 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		731FE36B26EE813C000CA5B5 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
 		731FE36D26EE86E4000CA5B5 /* solcelle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = solcelle.jpg; path = ../../../Downloads/solcelle.jpg; sourceTree = "<group>"; };
+		731FE36F26EF4664000CA5B5 /* Introfilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introfilm.swift; sourceTree = "<group>"; };
+		734F171526EF6DD100A5BDA4 /* VC22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22.swift; sourceTree = "<group>"; };
+		734F171726EF6DDD00A5BDA4 /* VC23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC23.swift; sourceTree = "<group>"; };
+		734F171B26F26EC500A5BDA4 /* Aktivitet1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet1.swift; sourceTree = "<group>"; };
+		734F171D26F26ED600A5BDA4 /* Aktivitet2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet2.swift; sourceTree = "<group>"; };
+		734F171F26F26EEB00A5BDA4 /* Aktivitet3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet3.swift; sourceTree = "<group>"; };
+		734F172126F26EF800A5BDA4 /* Aktivitet4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet4.swift; sourceTree = "<group>"; };
+		734F172326F26F0400A5BDA4 /* Aktivitet5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet5.swift; sourceTree = "<group>"; };
+		734F174026F365B200A5BDA4 /* sol1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sol1.png; path = ../../sol1.png; sourceTree = "<group>"; };
+		734F174126F365B300A5BDA4 /* sol2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sol2.png; path = ../../sol2.png; sourceTree = "<group>"; };
+		734F174226F365B300A5BDA4 /* sol3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sol3.png; path = ../../sol3.png; sourceTree = "<group>"; };
+		734F174326F365B300A5BDA4 /* sol5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sol5.png; path = ../../sol5.png; sourceTree = "<group>"; };
+		734F174426F365B400A5BDA4 /* sol7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sol7.png; path = ../../sol7.png; sourceTree = "<group>"; };
+		734F174526F365B400A5BDA4 /* sol6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sol6.png; path = ../../sol6.png; sourceTree = "<group>"; };
+		734F174626F365B400A5BDA4 /* sol4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sol4.png; path = ../../sol4.png; sourceTree = "<group>"; };
+		734F174E26F369CB00A5BDA4 /* Aktivitet6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet6.swift; sourceTree = "<group>"; };
+		734F175026F369D800A5BDA4 /* Aktivitet7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet7.swift; sourceTree = "<group>"; };
+		734F175226F369E300A5BDA4 /* Aktivitet8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet8.swift; sourceTree = "<group>"; };
+		734F175426F369EE00A5BDA4 /* Aktivitet9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aktivitet9.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +86,13 @@
 		731FE34726EE8048000CA5B5 = {
 			isa = PBXGroup;
 			children = (
+				734F174026F365B200A5BDA4 /* sol1.png */,
+				734F174126F365B300A5BDA4 /* sol2.png */,
+				734F174226F365B300A5BDA4 /* sol3.png */,
+				734F174626F365B400A5BDA4 /* sol4.png */,
+				734F174326F365B300A5BDA4 /* sol5.png */,
+				734F174526F365B400A5BDA4 /* sol6.png */,
+				734F174426F365B400A5BDA4 /* sol7.png */,
 				731FE36D26EE86E4000CA5B5 /* solcelle.jpg */,
 				731FE35226EE8048000CA5B5 /* Solcelle */,
 				731FE35126EE8048000CA5B5 /* Products */,
@@ -69,8 +114,20 @@
 				731FE35526EE8048000CA5B5 /* SceneDelegate.swift */,
 				731FE35726EE8048000CA5B5 /* ViewController.swift */,
 				731FE36926EE8125000CA5B5 /* VC2.swift */,
+				734F171526EF6DD100A5BDA4 /* VC22.swift */,
+				734F171726EF6DDD00A5BDA4 /* VC23.swift */,
 				731FE36726EE8107000CA5B5 /* VC3.swift */,
 				731FE36B26EE813C000CA5B5 /* VC4.swift */,
+				734F171B26F26EC500A5BDA4 /* Aktivitet1.swift */,
+				734F171D26F26ED600A5BDA4 /* Aktivitet2.swift */,
+				734F171F26F26EEB00A5BDA4 /* Aktivitet3.swift */,
+				734F172126F26EF800A5BDA4 /* Aktivitet4.swift */,
+				734F172326F26F0400A5BDA4 /* Aktivitet5.swift */,
+				734F174E26F369CB00A5BDA4 /* Aktivitet6.swift */,
+				734F175026F369D800A5BDA4 /* Aktivitet7.swift */,
+				734F175226F369E300A5BDA4 /* Aktivitet8.swift */,
+				734F175426F369EE00A5BDA4 /* Aktivitet9.swift */,
+				731FE36F26EF4664000CA5B5 /* Introfilm.swift */,
 				731FE35926EE8048000CA5B5 /* Main.storyboard */,
 				731FE35C26EE8053000CA5B5 /* Assets.xcassets */,
 				731FE35E26EE8053000CA5B5 /* LaunchScreen.storyboard */,
@@ -137,6 +194,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734F174726F365B400A5BDA4 /* sol1.png in Resources */,
+				734F174826F365B400A5BDA4 /* sol2.png in Resources */,
+				734F174926F365B400A5BDA4 /* sol3.png in Resources */,
+				734F174A26F365B400A5BDA4 /* sol5.png in Resources */,
+				734F174B26F365B400A5BDA4 /* sol7.png in Resources */,
+				734F174C26F365B400A5BDA4 /* sol6.png in Resources */,
+				734F174D26F365B400A5BDA4 /* sol4.png in Resources */,
 				731FE36E26EE86E4000CA5B5 /* solcelle.jpg in Resources */,
 				731FE36026EE8053000CA5B5 /* LaunchScreen.storyboard in Resources */,
 				731FE35D26EE8053000CA5B5 /* Assets.xcassets in Resources */,
@@ -151,10 +215,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731FE37026EF4664000CA5B5 /* Introfilm.swift in Sources */,
 				731FE36826EE8107000CA5B5 /* VC3.swift in Sources */,
+				734F171626EF6DD100A5BDA4 /* VC22.swift in Sources */,
+				734F172426F26F0400A5BDA4 /* Aktivitet5.swift in Sources */,
 				731FE35826EE8048000CA5B5 /* ViewController.swift in Sources */,
 				731FE36A26EE8125000CA5B5 /* VC2.swift in Sources */,
+				734F175326F369E300A5BDA4 /* Aktivitet8.swift in Sources */,
+				734F171E26F26ED600A5BDA4 /* Aktivitet2.swift in Sources */,
+				734F175126F369D800A5BDA4 /* Aktivitet7.swift in Sources */,
+				734F171C26F26EC500A5BDA4 /* Aktivitet1.swift in Sources */,
+				734F172026F26EEB00A5BDA4 /* Aktivitet3.swift in Sources */,
+				734F172226F26EF800A5BDA4 /* Aktivitet4.swift in Sources */,
+				734F174F26F369CB00A5BDA4 /* Aktivitet6.swift in Sources */,
+				734F175526F369EE00A5BDA4 /* Aktivitet9.swift in Sources */,
 				731FE36C26EE813C000CA5B5 /* VC4.swift in Sources */,
+				734F171826EF6DDD00A5BDA4 /* VC23.swift in Sources */,
 				731FE35426EE8048000CA5B5 /* AppDelegate.swift in Sources */,
 				731FE35626EE8048000CA5B5 /* SceneDelegate.swift in Sources */,
 			);

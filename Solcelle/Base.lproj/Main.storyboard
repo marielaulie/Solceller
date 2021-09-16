@@ -69,11 +69,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Myp-4u-3Y9">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Se videoene under før dere går videre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Piu-eJ-Rt6">
-                                <rect key="frame" x="223" y="175" width="634" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Se videoen under før dere går videre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Piu-eJ-Rt6">
+                                <rect key="frame" x="223" y="175" width="613" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U01-dx-ov7">
@@ -84,14 +84,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z06-OP-V0W">
-                                <rect key="frame" x="488" y="437" width="111" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Solceller">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmq-oW-hO2">
                                 <rect key="frame" x="443" y="680" width="200" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -99,7 +91,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Neste"/>
                                 <connections>
-                                    <segue destination="mlI-Pm-qOE" kind="show" id="hfU-D8-B4G"/>
+                                    <segue destination="WiQ-Pp-CaY" kind="show" id="5Gs-L8-2Kx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,6 +128,22 @@
             </objects>
             <point key="canvasLocation" x="138.88888888888889" y="91.851851851851848"/>
         </scene>
+        <!--Introfilm-->
+        <scene sceneID="KKH-U0-gGM">
+            <objects>
+                <viewController id="lX7-i0-pfx" customClass="Introfilm" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uU6-lq-Tly">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="IvC-XY-ikR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kEq-mY-g9W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzb-kb-rVv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="840"/>
+        </scene>
         <!--VC3-->
         <scene sceneID="9Su-cY-xks">
             <objects>
@@ -147,14 +155,6 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-2t-aYs">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Øvelse med solceller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJV-EU-YO8">
-                                <rect key="frame" x="321" y="375" width="438" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWC-8N-yHX">
                                 <rect key="frame" x="440" y="690" width="200" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -162,9 +162,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Neste"/>
                                 <connections>
-                                    <segue destination="Qm6-By-73Q" kind="show" id="KF3-lM-o3c"/>
+                                    <segue destination="t47-vX-L0x" kind="show" id="Bd9-pW-iy9"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJV-EU-YO8">
+                                <rect key="frame" x="270" y="345" width="541" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Buzzer koblet til solceller i
+serie- og parallellkrets</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -179,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qxz-Bx-wTI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="1500"/>
+            <point key="canvasLocation" x="894" y="1535"/>
         </scene>
         <!--VC4-->
         <scene sceneID="FFE-tj-667">
@@ -241,10 +251,10 @@
             </objects>
             <point key="canvasLocation" x="856.66666666666663" y="2224.4444444444443"/>
         </scene>
-        <!--VC2-->
+        <!--Aktivitet3-->
         <scene sceneID="9uc-Rc-n9H">
             <objects>
-                <viewController id="91I-zW-cXF" customClass="VC2" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="91I-zW-cXF" customClass="Aktivitet3" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="thq-b2-VpO">
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -252,6 +262,40 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J4e-Ce-UsC">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol3.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZEm-WB-wf4">
+                                <rect key="frame" x="546" y="153" width="514" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32q-kE-FUI">
+                                <rect key="frame" x="54" y="236" width="428" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1.	Plasser solcellene som vist på illustrasjonen under og sett måleinstrumentet på måling av likespenning, merket med VDC eller V     .
+
+2.	Bruk måleinstrumentet til å måle spenningen fra de tre solcellene. Svart målepinne må være koblet til utgangen merket med COM på måleinstrumentet og rød målepinne må være koblet til utgangen merket med V     . 
+
+3.	Hold den svarte målepinnen ned i svart koblingspunkt (minus) på basen og den røde målepinnen ned i koblingspunkt 3. Pass på at begge målepinnene er i kontakt med metallet i koblingspunktene. Noter måleresultatet.   
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steg 1: Spenning (V) i seriekobling " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEz-qC-Hhn">
+                                <rect key="frame" x="54" y="178" width="424" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTY-y8-jly">
+                                <rect key="frame" x="145" y="614" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="xxO-I5-6rS" kind="show" id="nT3-il-PcA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -266,10 +310,574 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UlG-Z6-7I0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="2962"/>
+            <point key="canvasLocation" x="1532.7777777777778" y="1534.8148148148148"/>
+        </scene>
+        <!--VC23-->
+        <scene sceneID="tHc-gm-Mdp">
+            <objects>
+                <viewController id="fX2-sn-PDS" customClass="VC23" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VDg-AH-MrZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ute-sf-Rhb">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rb9-0F-bxZ">
+                                <rect key="frame" x="485" y="456" width="111" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnS-1I-8st">
+                                <rect key="frame" x="440" y="675" width="200" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="mlI-Pm-qOE" kind="show" id="Hjt-o5-21g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="do0-u7-R9i">
+                                <rect key="frame" x="175" y="119" width="730" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Solcellene monteres på tak av de som bygger hus sammen med el-installatør f.eks. Bjørnar som utfører det elektriske opplegget som trengs:</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ute-sf-Rhb" firstAttribute="top" secondItem="VDg-AH-MrZ" secondAttribute="top" id="2jv-AR-E5N"/>
+                            <constraint firstItem="ute-sf-Rhb" firstAttribute="leading" secondItem="VDg-AH-MrZ" secondAttribute="leading" id="807-UB-Cuq"/>
+                            <constraint firstAttribute="bottom" secondItem="ute-sf-Rhb" secondAttribute="bottom" id="DSK-ml-c2h"/>
+                            <constraint firstAttribute="trailing" secondItem="ute-sf-Rhb" secondAttribute="trailing" id="aGh-cD-tYP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rae-sx-nrq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gfw-Sa-fZg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vvZ-q8-EK1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.88888888888889" y="2426.6666666666665"/>
+        </scene>
+        <!--VC22-->
+        <scene sceneID="p9N-m5-6SG">
+            <objects>
+                <viewController id="WiQ-Pp-CaY" customClass="VC22" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHI-9b-8p1">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ae7-wC-Pwf">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Solceller monteres vanligvis på tak: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7A-BM-HsH">
+                                <rect key="frame" x="234" y="266" width="603" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z06-OP-V0W">
+                                <rect key="frame" x="485" y="358" width="111" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lX7-i0-pfx" kind="show" id="0Ch-fn-eLT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cj2-6z-ctc">
+                                <rect key="frame" x="440" y="667" width="200" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="fX2-sn-PDS" kind="show" id="XNL-iY-2Cc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ae7-wC-Pwf" firstAttribute="leading" secondItem="tHI-9b-8p1" secondAttribute="leading" id="Ne9-sT-sah"/>
+                            <constraint firstAttribute="trailing" secondItem="Ae7-wC-Pwf" secondAttribute="trailing" id="dHD-LP-TVU"/>
+                            <constraint firstItem="Ae7-wC-Pwf" firstAttribute="top" secondItem="tHI-9b-8p1" secondAttribute="top" id="oNa-RT-7s5"/>
+                            <constraint firstAttribute="bottom" secondItem="Ae7-wC-Pwf" secondAttribute="bottom" id="qkw-mN-nDD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Wa-Z4-XJD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GRM-3n-STe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ntj-j4-hW9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="1652"/>
+        </scene>
+        <!--Aktivitet1-->
+        <scene sceneID="s9s-ua-tEl">
+            <objects>
+                <viewController id="t47-vX-L0x" customClass="Aktivitet1" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cvj-da-jur">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FUd-R5-Fjx">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7f-Wx-v20">
+                                <rect key="frame" x="447" y="699" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="VRL-kZ-KJM" kind="show" id="GMH-eC-8u2"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oga-Sk-Nrd">
+                                <rect key="frame" x="20" y="77" width="475" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol2.png" translatesAutoresizingMaskIntoConstraints="NO" id="IHX-F9-GYK">
+                                <rect key="frame" x="585" y="77" width="475" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FUd-R5-Fjx" firstAttribute="leading" secondItem="Cvj-da-jur" secondAttribute="leading" id="2g0-wg-lA7"/>
+                            <constraint firstItem="FUd-R5-Fjx" firstAttribute="top" secondItem="Cvj-da-jur" secondAttribute="top" id="3At-k4-gC9"/>
+                            <constraint firstAttribute="trailing" secondItem="FUd-R5-Fjx" secondAttribute="trailing" id="4ca-i0-eZ1"/>
+                            <constraint firstAttribute="bottom" secondItem="FUd-R5-Fjx" secondAttribute="bottom" id="MsG-tO-9Lm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CHx-lw-xvp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sVi-5q-aNx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2P-xE-jNJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1507.7777777777778" y="67.407407407407405"/>
+        </scene>
+        <!--Aktivitet2-->
+        <scene sceneID="LZB-8L-w2d">
+            <objects>
+                <viewController id="VRL-kZ-KJM" customClass="Aktivitet2" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lfj-hT-5FF">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="baN-KI-FPf">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seriekobling" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x51-0B-eYP">
+                                <rect key="frame" x="234" y="215" width="613" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seriekobling er to eller flere komponenter i en elektrisk krets som er koblet etter hverandre." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWY-S2-adu">
+                                <rect key="frame" x="181" y="332" width="719" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXQ-f7-jED">
+                                <rect key="frame" x="447" y="699" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="91I-zW-cXF" kind="show" id="tW8-l3-Fgq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="baN-KI-FPf" secondAttribute="bottom" id="igt-J1-45t"/>
+                            <constraint firstAttribute="trailing" secondItem="baN-KI-FPf" secondAttribute="trailing" id="jEm-HK-Dnt"/>
+                            <constraint firstItem="baN-KI-FPf" firstAttribute="top" secondItem="Lfj-hT-5FF" secondAttribute="top" id="muC-Zz-q1i"/>
+                            <constraint firstItem="baN-KI-FPf" firstAttribute="leading" secondItem="Lfj-hT-5FF" secondAttribute="leading" id="xSs-CP-iec"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4x2-Iy-OR3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="geO-t1-kSB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IgB-99-J8w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1507.7777777777778" y="801.48148148148141"/>
+        </scene>
+        <!--Aktivitet4-->
+        <scene sceneID="cGl-qb-DV7">
+            <objects>
+                <viewController id="xxO-I5-6rS" customClass="Aktivitet4" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BW7-65-yih">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DOR-ms-VIy">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol4.png" translatesAutoresizingMaskIntoConstraints="NO" id="LNm-n2-Bd2">
+                                <rect key="frame" x="546" y="129" width="514" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRL-P2-pax">
+                                <rect key="frame" x="56" y="236" width="428" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1.	Sett måleinstrumentet på måling av milliampere likestrøm, merket med mA     .
+
+2.	Bruk måleinstrumentet til å måle strøm fra de tre solcellene. Svart målepinne må være koblet til utgangen merket med COM på måleinstrumentet og rød målepinne må være koblet til utgangen som er merket med mA     . 
+
+3.	Hold den svarte målepinnen ned i svart koblingspunkt (minus) på basen og den røde målepinnen ned i koblingspunkt 3. Pass på at begge målepinnene er i kontakt med metallet i koblingspunktene. Noter måleresultatet.       
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steg 2: Strøm (A) i seriekobling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcW-S0-cmD">
+                                <rect key="frame" x="56" y="178" width="424" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLH-Fr-088">
+                                <rect key="frame" x="147" y="590" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="TXr-I6-o5z" kind="show" id="4pA-B6-U9S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="DOR-ms-VIy" firstAttribute="leading" secondItem="BW7-65-yih" secondAttribute="leading" id="4WX-CR-a5w"/>
+                            <constraint firstItem="DOR-ms-VIy" firstAttribute="top" secondItem="BW7-65-yih" secondAttribute="top" id="5Q4-T0-ss1"/>
+                            <constraint firstAttribute="trailing" secondItem="DOR-ms-VIy" secondAttribute="trailing" id="g8y-YI-DgU"/>
+                            <constraint firstAttribute="bottom" secondItem="DOR-ms-VIy" secondAttribute="bottom" id="op5-Nq-6uy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jlp-qq-TQA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VjS-Jv-qAH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fg5-xK-JsO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1533" y="2275"/>
+        </scene>
+        <!--Aktivitet5-->
+        <scene sceneID="qBk-Ss-J1Y">
+            <objects>
+                <viewController id="TXr-I6-o5z" customClass="Aktivitet5" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XX5-Wv-dMo">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Idk-iq-zwk">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol5.png" translatesAutoresizingMaskIntoConstraints="NO" id="1xi-tn-XGE">
+                                <rect key="frame" x="546" y="129" width="514" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3x3-r7-R6t">
+                                <rect key="frame" x="147" y="590" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="wSi-ze-h73" kind="show" id="8Mg-VI-pU1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steg 3: Buzzer i seriekobling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQT-2q-YKq">
+                                <rect key="frame" x="56" y="178" width="424" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44f-1n-S9k">
+                                <rect key="frame" x="56" y="185" width="424" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1.	Koble til buzzeren ved hjelp av rød og svart ledning. Start med å koble den svarte ledningen mellom svart koblingspunkt på basen (minus) og minus på buzzeren. Koble deretter den røde ledningen mellom koblingspunkt 3 på basen og pluss på buzzeren.
+
+2.	Noter hvordan buzzeren reagerer.    </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Idk-iq-zwk" secondAttribute="trailing" id="Hlg-Em-7QW"/>
+                            <constraint firstItem="Idk-iq-zwk" firstAttribute="leading" secondItem="XX5-Wv-dMo" secondAttribute="leading" id="JYC-9g-cEE"/>
+                            <constraint firstItem="Idk-iq-zwk" firstAttribute="top" secondItem="XX5-Wv-dMo" secondAttribute="top" id="gwd-Ft-CSu"/>
+                            <constraint firstAttribute="bottom" secondItem="Idk-iq-zwk" secondAttribute="bottom" id="xIg-kg-nVY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="P0m-Wx-0kY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GeF-dk-6Xw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ll3-kr-9J4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1532.7777777777778" y="2936.2962962962961"/>
+        </scene>
+        <!--Aktivitet6-->
+        <scene sceneID="ieM-In-jP3">
+            <objects>
+                <viewController id="wSi-ze-h73" customClass="Aktivitet6" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RpY-3E-MnU">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h6j-tx-e1s">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parallellkobling" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2w-W7-bPR">
+                                <rect key="frame" x="234" y="215" width="613" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parallellkobling er en kobling av elektriske komponenter ved siden av hverandre." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVt-gj-bR9">
+                                <rect key="frame" x="33" y="332" width="1016" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKk-Ur-w7b">
+                                <rect key="frame" x="447" y="699" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="WpD-iN-BfU" kind="show" id="u8N-c9-Mg7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="h6j-tx-e1s" firstAttribute="top" secondItem="RpY-3E-MnU" secondAttribute="top" id="AZa-JE-aa6"/>
+                            <constraint firstAttribute="bottom" secondItem="h6j-tx-e1s" secondAttribute="bottom" id="TYO-sL-bas"/>
+                            <constraint firstAttribute="trailing" secondItem="h6j-tx-e1s" secondAttribute="trailing" id="VY4-ww-3jS"/>
+                            <constraint firstItem="h6j-tx-e1s" firstAttribute="leading" secondItem="RpY-3E-MnU" secondAttribute="leading" id="fov-ON-DIJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6q1-8z-hZm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yqk-5h-ZfH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cnu-Wf-QD8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1533" y="3677"/>
+        </scene>
+        <!--Aktivitet7-->
+        <scene sceneID="cuD-Uv-onG">
+            <objects>
+                <viewController id="WpD-iN-BfU" customClass="Aktivitet7" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DaD-Nw-nGR">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Cnh-K2-6Te">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol6.png" translatesAutoresizingMaskIntoConstraints="NO" id="6ZY-EG-NAR">
+                                <rect key="frame" x="546" y="153" width="514" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztr-G8-wB9">
+                                <rect key="frame" x="54" y="236" width="428" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1.	Plasser solcellen som vist på illustrasjonen under og sett måleinstrumentet på måling av likespenning, merket med VDC eller V     .
+
+2.	Bruk måleinstrumentet til å måle spenning fra de tre solcellene. Svart målepinne må være koblet til utgangen merket med COM på måleinstrumentet og rød målepinne må være koblet til utgangen som er merket med V      . 
+
+3.	Hold den svarte målepinnen ned i svart koblingspunkt (minus) på basen og den røde målepinnen ned i koblingspunkt 3. Pass på at begge målepinnene er i kontakt med metallet i koblingspunktene. Noter måleresultatet.         
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steg 1: Spenning (V) fra parallellkobling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk4-so-KXW">
+                                <rect key="frame" x="54" y="178" width="424" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIx-PB-nHz">
+                                <rect key="frame" x="145" y="614" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="hmF-K0-ONu" kind="show" id="NfW-ec-jaT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Cnh-K2-6Te" secondAttribute="bottom" id="Aad-1e-rvR"/>
+                            <constraint firstItem="Cnh-K2-6Te" firstAttribute="top" secondItem="DaD-Nw-nGR" secondAttribute="top" id="H5n-cg-CHA"/>
+                            <constraint firstAttribute="trailing" secondItem="Cnh-K2-6Te" secondAttribute="trailing" id="QhJ-q1-z7T"/>
+                            <constraint firstItem="Cnh-K2-6Te" firstAttribute="leading" secondItem="DaD-Nw-nGR" secondAttribute="leading" id="ug6-uy-SA7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="30H-uE-mQL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cu5-JL-UoM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IKe-RY-cEv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1533" y="4352"/>
+        </scene>
+        <!--Aktivitet8-->
+        <scene sceneID="Rn7-Qo-l2n">
+            <objects>
+                <viewController id="hmF-K0-ONu" customClass="Aktivitet8" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="apj-dE-SiV">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="l9a-yI-hTf">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bzv-fs-5Na">
+                                <rect key="frame" x="546" y="153" width="514" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ2-NA-pdK">
+                                <rect key="frame" x="54" y="236" width="428" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1.	Sett måleinstrumentet på måling av milliampere likestrøm, merket med mA     .
+
+2.	Bruk måleinstrumentet til å måle strøm fra de tre solcellene. Svart målepinne må være koblet til utgangen merket med COM på måleinstrumentet og rød målepinne må være koblet til utgangen som er merket med mA     . 
+
+3.	Hold den svarte målepinnen ned i svart koblingspunkt (minus) på basen og den røde målepinnen ned i koblingspunkt 3. Pass på at begge målepinnene er i kontakt med metallet i koblingspunktene. Noter måleresultatet.       
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steg 2: Strøm (A) i parallellkobling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcw-fw-4NR">
+                                <rect key="frame" x="54" y="178" width="424" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3W-9e-63B">
+                                <rect key="frame" x="145" y="614" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="5GO-HJ-BOe" kind="show" id="in2-st-3F6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="l9a-yI-hTf" firstAttribute="top" secondItem="apj-dE-SiV" secondAttribute="top" id="Ctt-BC-2f3"/>
+                            <constraint firstItem="l9a-yI-hTf" firstAttribute="leading" secondItem="apj-dE-SiV" secondAttribute="leading" id="QkU-0S-xac"/>
+                            <constraint firstAttribute="bottom" secondItem="l9a-yI-hTf" secondAttribute="bottom" id="cKh-kV-FiA"/>
+                            <constraint firstAttribute="trailing" secondItem="l9a-yI-hTf" secondAttribute="trailing" id="jRa-jg-fDX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bQz-i6-kbh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QwJ-J3-Rrf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1J9-9O-nig" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1533" y="5068"/>
+        </scene>
+        <!--Aktivitet9-->
+        <scene sceneID="De2-ZJ-avs">
+            <objects>
+                <viewController id="5GO-HJ-BOe" customClass="Aktivitet9" customModule="Solcelle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z3v-WD-EW9">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solcelle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O4o-83-idI">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sol7.png" translatesAutoresizingMaskIntoConstraints="NO" id="9dv-Xv-BTg">
+                                <rect key="frame" x="546" y="153" width="514" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrj-xL-lbJ">
+                                <rect key="frame" x="145" y="614" width="187" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83163893219999996" green="0.89454925060000001" blue="0.9891157746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste"/>
+                                <connections>
+                                    <segue destination="Qm6-By-73Q" kind="show" id="v79-y4-aft"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steg 3: Buzzer i parallellkobling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2q-nJ-08d">
+                                <rect key="frame" x="54" y="178" width="424" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYt-my-f1Z">
+                                <rect key="frame" x="54" y="236" width="424" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1.	Koble til buzzeren ved hjelp av rød og svart ledning. Start med å koble den svarte ledningen mellom svart koblingspunkt på basen (minus) og minus på buzzeren. Koble deretter den røde ledningen mellom koblingspunkt 3 på basen og pluss på buzzeren.
+
+2.	Noter hvordan buzzeren reagerer.
+  
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="O4o-83-idI" firstAttribute="top" secondItem="z3v-WD-EW9" secondAttribute="top" id="8Gw-sX-RVN"/>
+                            <constraint firstAttribute="bottom" secondItem="O4o-83-idI" secondAttribute="bottom" id="hZ9-bw-Z8S"/>
+                            <constraint firstItem="O4o-83-idI" firstAttribute="leading" secondItem="z3v-WD-EW9" secondAttribute="leading" id="iOf-ND-7Ay"/>
+                            <constraint firstAttribute="trailing" secondItem="O4o-83-idI" secondAttribute="trailing" id="q3H-1v-bJJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dOk-px-CBm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a5H-q3-mJd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y6G-t6-sBZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1533" y="5786"/>
         </scene>
     </scenes>
     <resources>
+        <image name="sol1.png" width="459" height="596"/>
+        <image name="sol2.png" width="443" height="600"/>
+        <image name="sol3.png" width="361" height="400"/>
+        <image name="sol4.png" width="373" height="407"/>
+        <image name="sol5.png" width="359" height="395"/>
+        <image name="sol6.png" width="374" height="390"/>
+        <image name="sol7.png" width="365" height="406"/>
         <image name="solcelle.jpg" width="1080" height="810"/>
     </resources>
 </document>
